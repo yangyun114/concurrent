@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BspLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Test" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32b815e1-1c74-4fe8-88f3-d1ae7a149781" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IntelliJConfiguration">
+    <option name="PROPERTY_FILES">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="REMOVE_NBSP" value="true" />
+    <option name="CREATE_NEW_JSP" value="true" />
+    <option name="KEY_RESOLUTION_TYPE" value="Use all words in label" />
+    <option name="PROMPT_FOR_KEY_PREFIX" value="false" />
+    <option name="LABEL_PART_1" value="&lt;bean:message key=&quot;" />
+    <option name="LABEL_PART_2" value="&quot;/&gt;" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1c1t8IbWee0JopUtqGOAEpLJHoS" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.TestFrames">
+    <configuration name="Test3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lession3_1.Test3_1" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lession3_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lession3_8.Test3_8" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lession3_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFrames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lession3_10.TestFrames" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lession3_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestFrames" />
+        <item itemvalue="Application.Test3_8" />
+        <item itemvalue="Application.Test3_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32b815e1-1c74-4fe8-88f3-d1ae7a149781" name="Default Changelist" comment="" />
+      <created>1589707767028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589707767028</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="97" key="#Project_Structure" timestamp="1590646348711">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="320" y="97" key="#Project_Structure/0.23.1440.814@0.23.1440.814" timestamp="1590646348711" />
+    <state x="184" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590654420811">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="184" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1590654420811" />
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1590654437115">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.814@0.23.1440.814" timestamp="1590654437115" />
+    <state width="1396" height="260" key="GridCell.Tab.0.bottom" timestamp="1590655125014">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1396" height="260" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1590655125014" />
+    <state width="1396" height="260" key="GridCell.Tab.0.center" timestamp="1590655125013">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1396" height="260" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1590655125013" />
+    <state width="1396" height="260" key="GridCell.Tab.0.left" timestamp="1590655125012">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1396" height="260" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1590655125012" />
+    <state width="1396" height="260" key="GridCell.Tab.0.right" timestamp="1590655125013">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1396" height="260" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1590655125013" />
+    <state width="1396" height="260" key="GridCell.Tab.1.bottom" timestamp="1590655125019">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1396" height="260" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1590655125019" />
+    <state width="1396" height="260" key="GridCell.Tab.1.center" timestamp="1590655125015">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1396" height="260" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1590655125015" />
+    <state width="1396" height="260" key="GridCell.Tab.1.left" timestamp="1590655125015">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1396" height="260" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1590655125015" />
+    <state width="1396" height="260" key="GridCell.Tab.1.right" timestamp="1590655125018">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1396" height="260" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1590655125018" />
+    <state x="308" y="173" key="IDE.errors.dialog" timestamp="1590647642565">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="308" y="173" key="IDE.errors.dialog/0.23.1440.814@0.23.1440.814" timestamp="1590647642565" />
+    <state x="229" y="23" width="1024" height="814" key="SettingsEditor" timestamp="1590646678440">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="229" y="23" width="1024" height="814" key="SettingsEditor/0.23.1440.814@0.23.1440.814" timestamp="1590646678440" />
+    <state x="229" y="70" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1589707866635" />
+    <state x="390" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1590646291194">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="390" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1590646291194" />
+    <state x="325" y="161" width="790" height="538" key="find.popup" timestamp="1590651902301">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="325" y="161" width="790" height="538" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1590651902301" />
+    <state x="385" y="163" width="670" height="675" key="search.everywhere.popup" timestamp="1590654167806">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="385" y="163" width="670" height="675" key="search.everywhere.popup/0.23.1440.814@0.23.1440.814" timestamp="1590654167806" />
+    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1589708526409" />
+  </component>
+</project>
