@@ -13,10 +13,7 @@ import java.util.Map;
 public class SingleNumber {
     public static void main(String[] args) {
         int[] arr = {1, 1, 1, 2};
-//        log.info("{}", solve(arr));
-
-        log.info("{}", 1^2^3);
-        log.info("{}", 3^1^2);
+        log.info("{}", solve1(arr));
 
     }
 
@@ -41,7 +38,22 @@ public class SingleNumber {
     }
 
     // 不使用hashmap
-
+    // 所有数先转化为二进制数，Integer是32位，因为是3个重复的数字，加一个单独的数字，
+    // 所以二进制的每一位上的值相加都为0，3n，1或者3n+1
+    // 每一位二进制数对3进行求模，然后组合求模的值，则得出来是那个单独的数字
+    private static int solve1(int[] arr) {
+        int res = 0;
+        for (int i = 0; i < 32; i++) {
+            int sum = 0;
+            for (int j = 0; j < arr.length; j++) {
+                sum += (arr[j] >> i) & 1;
+            }
+            sum = sum % 3;
+            // sum << i的意思是获取到第i位上的值，然后与res进行或运算
+            res |= sum << i;
+        }
+        return res;
+    }
 
     // 提供一个额外算法，使用set获取所有不重复的元素，然后把值进行累加 * 3，再减去原有数组的累加值 / 2即可得到相应数字
 
