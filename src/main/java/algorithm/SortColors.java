@@ -18,28 +18,6 @@ public class SortColors {
     }
 
     private static void solve(int[] arr) {
-//        int i = -1;
-//        int j = arrSize;
-//        int k = 1;
-//        while (k < j) {
-//            if (list.getElement(k) == 0) {
-//                i++;
-//                int temp = list.getElement(k);
-//                list.setElement(k, list.getElement(i));
-//                list.setElement(i, temp);
-//                k++;
-//            }
-//            if (list.getElement(k) == 1) {
-//                k++;
-//            }
-//            if (list.getElement(k) == 2) {
-//                j--;
-//                int temp = list.getElement(k);
-//                list.setElement(k, list.getElement(j));
-//                list.setElement(j, temp);
-//            }
-//        }
-//        return list;
 
         int start = 0, end = arr.length - 1;
         // i注意要小于等于end

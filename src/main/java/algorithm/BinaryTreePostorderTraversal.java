@@ -48,7 +48,6 @@ public class BinaryTreePostorderTraversal {
         log.info("{}", root.left.right.value);
 
         post1(root);
-
     }
 
     private static void post(Node root) {

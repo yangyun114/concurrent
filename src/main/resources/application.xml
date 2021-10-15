@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--  每一个类就是一个bean，如果在一个bean里面注入了另外一个bean，则把另外一个bean作为property写入  -->
+    <!--  spring专用  -->
+    <bean id="userService" class="spring.ioc.UserService">
+        <property name="mailService" ref="mailService" />
+    </bean>
+
+    <bean id="mailService" class="spring.ioc.MailService" />
+</beans>

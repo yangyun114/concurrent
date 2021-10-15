@@ -1,15 +1,29 @@
-package lession4;
+package algorithm.meet;
 
 import lombok.extern.slf4j.Slf4j;
 
-// a线程输出5次a，b线程输出五次b，c线程输出五次c，要求输出abcabcabcabcabc
-@Slf4j(topic = "TestOrderControlTwo")
-public class TestOrderControlTwo {
+import java.io.File;
+
+///*
+// 问题：多线程写文件
+//
+//有四个线程1、2、3、4。线程1的功能就是输出A，线程2的功能就是输出B，以此类推.........
+//现在有四个文件file1,file2,file3, file4。初始都为空。
+//现要让四个文件呈如下格式：
+//file1：A B C D A B....
+//file2：B C D A B C....
+//file3：C D A B C D....
+//file4：D A B C D A....
+//*/
+@Slf4j
+public class MultiThreadWrite {
     static final Object lock = new Object();
-    static int flag = 2;
-    public static void main(String[] args) {
+    volatile static int flag = 0;
+
+    void print() {
+        File file1, file2, file3, file4;
         Thread a = new Thread(() -> {
-            for (int i = 0; i < 5; i++) {
+            while (true) {
                 synchronized (lock) {
                     while (flag != 0) {
                         try {
@@ -18,15 +32,15 @@ public class TestOrderControlTwo {
                             e.printStackTrace();
                         }
                     }
-                    log.info("a");
+                    log.info("A");
                     flag = 1;
                     lock.notifyAll();
                 }
             }
-        }, "a");
+        }, "A");
 
         Thread b = new Thread(() -> {
-            for (int i = 0; i < 5; i++) {
+            while (true) {
                 synchronized (lock) {
                     while (flag != 1) {
                         try {
@@ -35,15 +49,15 @@ public class TestOrderControlTwo {
                             e.printStackTrace();
                         }
                     }
-                    log.info("b");
+                    log.info("B");
                     flag = 2;
                     lock.notifyAll();
                 }
             }
-        }, "b");
+        }, "B");
 
         Thread c = new Thread(() -> {
-            for (int i = 0; i < 5; i++) {
+            while (true) {
                 synchronized (lock) {
                     while (flag != 2) {
                         try {
@@ -52,16 +66,39 @@ public class TestOrderControlTwo {
                             e.printStackTrace();
                         }
                     }
-                    log.info("c");
+                    log.info("C");
+                    flag = 3;
+                    lock.notifyAll();
+                }
+            }
+        }, "C");
+
+        Thread d = new Thread(() -> {
+            while (true) {
+                synchronized (lock) {
+                    while (flag != 3) {
+                        try {
+                            lock.wait();
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                    log.info("D");
                     flag = 0;
                     lock.notifyAll();
                 }
             }
-        }, "c");
+        }, "D");
 
+        a.start();
         b.start();
         c.start();
-        a.start();
+        d.start();
+    }
+
+    public static void main(String[] args) {
 
     }
+
+
 }

@@ -3,12 +3,14 @@ package lession4;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 @Slf4j(topic = "TestReentrantLock")
 public class TestReentrantLock {
     private static ReentrantLock lock = new ReentrantLock();
 
     public static void main(String[] args) {
+        ReentrantReadWriteLock lock1 = new ReentrantReadWriteLock();
 
         Thread t1 = new Thread(() -> {
             try {
